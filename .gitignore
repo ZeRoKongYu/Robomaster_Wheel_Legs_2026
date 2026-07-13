@@ -1,0 +1,32 @@
+# Keil / MDK build outputs
+**/MDK-ARM/Cboard/
+**/MDK-ARM/*.uvguix.*
+**/MDK-ARM/*.uvoptx
+**/MDK-ARM/*.axf
+**/MDK-ARM/*.hex
+**/MDK-ARM/*.map
+**/MDK-ARM/*.lst
+**/MDK-ARM/*.htm
+**/MDK-ARM/*.lnp
+**/MDK-ARM/*.dep
+**/MDK-ARM/*.iex
+
+# Object and dependency files
+*.o
+*.d
+*.crf
+*.obj
+*.elf
+*.bin
+
+# Local editor and OS files
+.vscode/
+.idea/
+*.user
+*.swp
+Thumbs.db
+Desktop.ini
+
+# Local generated QA/render artifacts
+docs/rendered/
+docs/tmp/
